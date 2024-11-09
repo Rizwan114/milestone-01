@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milestone 01</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header> <i> <b> Builde Your Resume For Growing Your Skills </b> </i></header>
+    <br /><br />
+
+    <form action="">
+
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="name">Name</label>
+      <input type="name" placeholder="Name" required >
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email Address" required>
+      <br /><br />
+      <label for="phone">Phone</label>
+      <input type="number" placeholder="Number" required >
+    </fieldset>
+
+    <br /><br />
+
+    <fieldset>
+      <legend>Education</legend>
+      <label for="Education">Education</label>
+      <textarea name="Education" id="Education" rows="6" placeholder="what is your Education" required></textarea>
+    </fieldset>
+
+    <br /><br />
+
+    <fieldset>
+      <legend>Skills</legend>
+      <label for="skills">Skills</label>
+      <textarea
+        name="skills"
+        id="skills"
+        rows="5"
+        placeholder="Add Your Skills"
+        required
+      ></textarea>
+    </fieldset>
+    <br /><br />
+    <button type="submit">Submit</button>
+    <button type="reset">Reaset</button>
+
+
+
+    </form>
+
+
+
+    <div id="resumePage" class="resume-page hidden">
+
+      <div id="resumrContent" class="resume-Content">
+         <img id="resume-Photo" class="resume-Photo" src="" alt="Photo">
+
+         <h1 id="resumeName"></h1>
+         <p id="resumeEmail"></p>
+         <p id="resumePhone"></p>
+
+         <h2>Education</h2>
+         <p id="Education"></p>
+
+         <h2>Skills</h2>
+         <p id="Skills"></p>
+
+         <div>
+          <button id="submit"></button>
+          <button id="reset"></button>
+         </div>
+
+
+      </div>
+
+    </div>
+
+
+
+    <script src=""></script>
+  </body>
+</html>
